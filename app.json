@@ -1,28 +1,21 @@
 {
   "expo": {
     "name": "Jokes",
-    "slug": "Jokes",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "##7159c1"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "version": "1.0.0",
+    "slug": "Jokes",
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "Jokes.App",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "Jokes.App",
+      "versionCode": 1
     }
   }
 }

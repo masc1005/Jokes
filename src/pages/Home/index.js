@@ -29,7 +29,7 @@ export default function Home() {
     const [counter, setCounter] = useState(15)
 
     useEffect(() => {//função do timer de reload
-        const timer = counter > 0 && setInterval9(() => setCounter(counter - 1), 1000)
+        const timer = counter > 0 && setInterval(() => setCounter(counter - 1), 1000)
         return () => clearInterval(timer)
     }, [counter])
 

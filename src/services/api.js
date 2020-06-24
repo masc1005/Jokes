@@ -1,5 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: ''
+    baseURL: 'https://official-joke-api.appspot.com/jokes/random'
 })
+
+export default api

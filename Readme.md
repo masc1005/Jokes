@@ -22,9 +22,9 @@ It's necessary to have the expo installed on your machine and the npm to.
 > To start the project
 
 ### ScreenShots
-![screen1](./docs/screens/screen1.png = 70x100)
-![screen2](./docs/screens/screen2.png = 70x100)
-![screen3](./docs/screens/screen3.png = 70x100)
+![screen1](./docs/screens/screen1.png =70x100)
+![screen2](./docs/screens/screen2.png =70x100)
+![screen3](./docs/screens/screen3.png =70x100)
 
 ### Technologies
 - React Native
